@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 25%;
+    height: auto;
+}
+
+header, section, footer {
+    border:0 #2d343b solid;
+    background-color: rgba(243, 103, 231, 0.2);
+}
+
+header {
+    position: fixed;
+    border:none ;    
+    background-color: black;
+    opacity: 0.9; /* 工作列的透明度 */
+    top:0;
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 1, 1, 0.1);
+}
+
+header ul {
+    position: absolute;
+    right: 5vw;
+    top:0;
+    line-height: 100px;
+}
+
+header li {
+    display: inline;
+    margin-right: 4vw;
+    font-size: 2.5vw;
+}
+
+h1{
+    position:absolute;
+    left: 5vw;
+    top:0;
+    line-height: 100px;
+    color:pink;
+}
+
+header a {
+    text-decoration: none;
+    color: pink;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: wheat;
+    font-size: 3.2vw;
+    text-decoration: underline;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.firstPage {
+    height: 100vh;
+    background-image: url("img/bp.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: pink;
+    font-size: 2.7vw;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+.firstPage img {
+    border: "1";   
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+
+.club-section {
+    
+
+    background-color: pink;
+    color: black;
+    border-radius: 2%;
+    align-items: flex-start;
+    justify-self: center;
+    
+
+    width: 100%;
+    height: 6vw;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.club-section h2 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+.club-section ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+.inrto {
+    line-height: 4.5vw;
+}
+
+
+.inrto p {
+    width: 40vw;
+    height: auto;
+    color: white;
+
+
+    margin-left: 3vw;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+
+.dick h2 {
+    scroll-margin-top: 3vw;
+}
+
+footer {
+    background-color: black;
+    color: pink;
+}
